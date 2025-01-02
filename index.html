@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Minimo">
+	<meta name="description" content="it's a random page">
+	<meta name="keywords" content="html,css,js,jq,bootstrap,php">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 days">
+	<meta name="author" content="Yousuf Jamil">
+
+	<title>Accordion</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+
+
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				
+	    <div class="accordion" class="accordion-collapse" id="acc_ex1">
+      <div class="accordion-item">
+      <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c_one" aria-expanded="true" aria-controls="c_one">
+        question #1
+      </button>
+      </h2>
+      <div id="c_one" class="accordion-collapse collapse show" data-bs-parent="#acc_ex1">
+      <div class="accordion-body">
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repellendus ipsa fugiat in nam labore placeat saepe inventore explicabo laborum voluptas fugit iste esse, deleniti deserunt praesentium ad. Beatae nihil ullam, ex, libero vero explicabo? Id, tempore ut cum at accusamus, consequuntur rem temporibus ad eius, ea dolores molestias nostrum.</p>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_two" aria-expanded="false" aria-controls="c_two">
+       question #2
+      </button>
+      </h2>
+      <div id="c_two" class="accordion-collapse collapse" data-bs-parent="#acc_ex1">
+      <div class="accordion-body">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla inventore ut laudantium veniam placeat quos debitis ad nesciunt voluptas. In quibusdam doloribus omnis eveniet exercitationem magni provident, iste hic nisi nobis et facere a quasi voluptatibus est illo eaque commodi perferendis id libero odit molestiae doloremque quis obcaecati iure!</p>
+      </div>
+      </div>
+      </div>
+  
+			</div>
+		</div>
+	</div>
+ 
+
+
+
+	
+
+
+
+        <!..js html start../!>
+	  	<script src="js/bootstrap.bundle.min.js"></script>
+	 	<script src="js/customs.js"></script>
+		<!..js html end../!>
+</body>
+
+</html>
